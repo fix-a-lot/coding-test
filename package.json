@@ -8,7 +8,7 @@
   "license": "The Unlicense",
   "homepage": "https://github.com/fix-a-lot/coding-test",
   "scripts": {
-    "test": "jest --config=tests/jest/jest.config.js --watchAll"
+    "test": "jest --config=tests/jest.config.js --watchAll"
   },
   "devDependencies": {
     "chai": "^4.3.3",
