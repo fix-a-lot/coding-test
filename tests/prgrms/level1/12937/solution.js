@@ -1,7 +1,5 @@
 function solution(n) {
-  let answer = 0;
-
-  return answer;
+  return n % 2 === 0 ? 'Even' : 'Odd';
 }
 
 exports.solution = solution;

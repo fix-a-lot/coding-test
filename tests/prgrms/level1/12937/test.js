@@ -5,15 +5,9 @@ const {solution} = require('./solution');
 
 describe(`suite ${directoryName}`, () => {
   test('case #1', () => {
-    expect(solution()).toEqual(0);
+    expect(solution(3)).toEqual('Odd');
   });
   test('case #2', () => {
-    expect(solution()).toEqual(0);
-  });
-  test('case #3', () => {
-    expect(solution()).toEqual(0);
-  });
-  test('case #4', () => {
-    expect(solution()).toEqual(0);
+    expect(solution(4)).toEqual('Even');
   });
 });
