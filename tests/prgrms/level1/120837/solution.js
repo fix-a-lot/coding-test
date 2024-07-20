@@ -1,16 +1,18 @@
 function solution(n) {
   let answer = 0;
 
-  let ga = 0;
-  let aa = 0;
-  let la = 0;
-  while (true) {
-    if (n / n) {
+  const ga = 5;
+  const aa = 3;
+  const la = 1;
+  let remainHp = 0;
 
-    }
-  }
+  answer += Math.floor(n / ga);
+  remainHp = n % ga;
 
-  let ga = n % 5;
+  answer += Math.floor(remainHp / aa);
+  remainHp = remainHp % aa;
+
+  answer += Math.floor(remainHp / la);
 
   return answer;
 }
