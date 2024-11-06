@@ -11,5 +11,5 @@ yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
 
-tests/coverage
+__tests__/coverage
 nexon

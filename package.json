@@ -2,13 +2,13 @@
   "name": "coding-test",
   "version": "1.0.0",
   "directories": {
-    "test": "tests"
+    "test": "__tests__"
   },
   "author": "fix-a-lot",
   "license": "The Unlicense",
   "homepage": "https://github.com/fix-a-lot/coding-test",
   "scripts": {
-    "test": "jest --config=tests/jest.config.js --watchAll"
+    "test": "jest --config=__tests__/jest.config.js --watchAll"
   },
   "devDependencies": {
     "chai": "^4.3.3",
